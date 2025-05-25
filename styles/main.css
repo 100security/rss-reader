@@ -1,0 +1,207 @@
+footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: #343a40;
+    color: #fff;
+}
+
+.bg-purple {
+    background-color: #6f42c1 !important;
+}
+
+.btn-purple {
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+    color: white;
+}
+
+.btn-purple:hover {
+    background-color: #5a32a3;
+    border-color: #5a32a3;
+    color: white;
+}
+
+.btn-outline-purple {
+    color: #6f42c1;
+    border-color: #6f42c1;
+}
+
+.btn-outline-purple:hover {
+    background-color: #6f42c1;
+    color: white;
+}
+
+.text-purple {
+    color: #6f42c1 !important;
+}
+
+/* Feed cards */
+.feed-card {
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.feed-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.feed-card .card-header {
+    font-weight: 600;
+}
+
+.feed-card .badge {
+    font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 150px;
+    }
+    
+    .display-4 {
+        font-size: 2rem;
+    }
+    
+    .feed-card .card-footer {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .feed-card .card-footer .btn {
+        width: 100%;
+    }
+}
+
+/* Animações */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+/* Dropdown personalizado */
+.dropdown-menu {
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border: none;
+    padding: 0.5rem;
+}
+
+.dropdown-item {
+    border-radius: 0.3rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.2rem;
+}
+
+.dropdown-item:hover {
+    background-color: #f3ebff;
+    color: #6f42c1;
+}
+
+.dropdown-item:active {
+    background-color: #6f42c1;
+    color: white;
+}
+
+.dropdown-item i {
+    width: 20px;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.dropdown-divider {
+    margin: 0.5rem 0;
+}
+
+/* Modal personalizado */
+.modal-content {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    border: none;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+/* Progress bar */
+.progress {
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    transition: width 0.3s ease;
+}
+
+/* Estilo para card clicável */
+.news-card {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.text-purple {
+    color: #6f42c1 !important;
+}
+/* Estilo para favicons */
+.card-title img {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+    border-radius: 2px;
+}
+
+.card-title img, .card-title i {
+    pointer-events: none;
+}
+
+.card-title img {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 576px) {
+    .card-title {
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    .card-title img, .card-title i {
+        margin-top: 4px;
+        flex-shrink: 0;
+    }
+}
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.text-muted a {
+    color: inherit;
+}
+
+.text-muted a:hover {
+    text-decoration: none;
+    color: inherit;
+}
